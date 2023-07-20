@@ -9,4 +9,3 @@ def test_navigate_to_contact(MyHomePage):
     MyHomePage.load()
     MyHomePage.navigate_to_contact()
 
-
