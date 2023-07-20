@@ -1,6 +1,7 @@
 import pytest
 from playwright.sync_api import sync_playwright, Page
-from src.pages.search_page import SearchPage
+
+from automation.src.pages.home_page import HomePage
 
 
 @pytest.fixture(scope='session')
@@ -23,5 +24,5 @@ def page(context):  # Make sure to use the 'context' fixture as a dependency for
 
 
 @pytest.fixture
-def MySearchPage(page: Page) -> SearchPage:
-    return SearchPage(page)
+def MyHomePage(page: Page) -> HomePage:
+    return HomePage(page)
