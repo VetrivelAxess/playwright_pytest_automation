@@ -82,4 +82,4 @@ class TechnlogyCategories:
     pc_btn = "//a[.='PC']"
     camera_n_accessories_btn = "//a[.='Cámaras y Accesorios']"
     digital_camera_btn = "//a[.='Cámaras Digitales']"
-    camera_accessories_btn_2 = "//a[.='Accesorios para Cámaras']"
+    camera_accessories_btn = "//a[.='Accesorios para Cámaras']"
