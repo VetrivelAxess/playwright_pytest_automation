@@ -12,5 +12,6 @@ class HomePage(BasePage):
 
     def load(self) -> None:
         self.page.goto(TestData.URL)
+
     def navigate_to_contact(self):
         self.page.locator(AlphaCode.CONTACTS).click()
