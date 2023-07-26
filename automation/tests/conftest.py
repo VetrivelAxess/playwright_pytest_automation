@@ -26,3 +26,5 @@ def page(context):  # Make sure to use the 'context' fixture as a dependency for
 @pytest.fixture
 def MyHomePage(page: Page) -> HomePage:
     return HomePage(page)
+
+
